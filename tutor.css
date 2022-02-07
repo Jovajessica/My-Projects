@@ -40,11 +40,13 @@ body {
     margin: 1em ; /* distance downwards but not upwards*/
     
   }
-   .menu h2 {
+.menu h2 {
     margin: 0 0 1em;
     padding: 2em 0;
     background-color: #dac8b12f;  /* very light gray*/
     text-align: center;
+    box-shadow: inset 0 0 20x #007241;
+    border-radius: 50%
   }
  
   footer {
