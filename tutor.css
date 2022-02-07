@@ -1,0 +1,63 @@
+body {
+    font-size: 100%; /* start value*/
+    margin: auto;  /* centers the page */
+    max-width: 860px;  
+    text-align: center;
+  }
+ 
+  section, footer{
+    outline: 3px solid rgb(142, 126, 233);
+   
+  }
+ 
+  header {
+    text-align: center;
+
+}
+  .startpage h1 {
+    font-size: 500%; /* Big title on the start page*/
+  }
+  .startpage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+ 
+  .startpage header, .startpage footer {
+    flex: 0 0 100%;
+  }
+ 
+  .startpage section {
+    flex: 0 0 22%;
+  }
+ 
+ 
+  .tagline {
+    font-size: 120%;
+    padding: 0.5em; /* distance to the border*/
+    border-top: 3px double #9a46ca;
+    border-bottom: 3px double #9a46ca;
+    margin: 1em ; /* distance downwards but not upwards*/
+    
+  }
+   .menu h2 {
+    margin: 0 0 1em;
+    padding: 2em 0;
+    background-color: #dac8b12f;  /* very light gray*/
+    text-align: center;
+  }
+ 
+  footer {
+    margin-top: 3em;
+    text-align: center;
+    color: #999;
+  }
+  .nav-links ul li::after{
+    content:'';
+    width: 0%;
+    height: 2px;
+    background: #f1645a;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
