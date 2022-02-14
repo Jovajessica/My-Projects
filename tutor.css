@@ -45,7 +45,7 @@ body {
     padding: 2em 0;
     background-color: #dac8b12f;  /* very light gray*/
     text-align: center;
-    box-shadow: inset 0 0 20x #007241;
+    box-shadow: inset 0 20 20x #007241;
     border-radius: 50%
   }
  
